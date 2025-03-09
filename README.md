@@ -23,7 +23,9 @@ docker exec -it app siege -c10 -t30s "http://127.0.0.1:5000/search?name=test"
 '''
 
 Test results:
-long_query_time 	transactions 	longest_transaction
-0 	295 	1.62
-1 	315 	1.42
-10 	328 	1.37
+
+| long_query_time | transactions | longest_transaction |
+|:---------------:|:------------:|:-------------------:|
+|        0        |      295     |        1.62         |
+|        1        |      315     |        1.42         |
+|       10        |      328     |        1.37         |
