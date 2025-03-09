@@ -1,0 +1,3 @@
+Fastapi
+mysql-connector-python
+uvicorn
